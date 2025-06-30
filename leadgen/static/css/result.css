@@ -1,0 +1,31 @@
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: #fff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #ddd;
+}
+
+.back-link {
+    display: block;
+    margin-bottom: 1em;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.insight {
+    margin-bottom: 1.5em;
+}
+
+.label {
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 1.2em;
+}

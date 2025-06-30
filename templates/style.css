@@ -1,0 +1,95 @@
+/* Dark glowing theme for B2B Lead Insight Generator */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #1e1e1e;
+    padding: 2em;
+    border-radius: 12px;
+    box-shadow: 0 0 15px 3px #00ffea;
+}
+h1, h2 {
+    text-align: center;
+    color: #00ffea;
+    text-shadow: 0 0 8px #00ffea;
+}
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    color: #00ffe7;
+    text-shadow: 0 0 5px #00ffe7;
+}
+input[type=url] {
+    width: 100%;
+    padding: 0.6em;
+    margin-bottom: 1em;
+    border: 1px solid #00ffea;
+    border-radius: 6px;
+    background-color: #121212;
+    color: #e0e0e0;
+    box-shadow: inset 0 0 8px #00ffea;
+    font-size: 1em;
+}
+input[type=url]::placeholder {
+    color: #66fff9;
+    opacity: 0.7;
+}
+button {
+    width: 100%;
+    padding: 0.8em;
+    background: #00ffea;
+    color: #121212;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 12px #00ffea;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+button:hover {
+    background-color: #00d6c0;
+    box-shadow: 0 0 20px #00d6c0;
+}
+.back-link {
+    display: inline-block;
+    margin-bottom: 1em;
+    color: #00ffea;
+    text-decoration: none;
+    font-weight: 600;
+    text-shadow: 0 0 6px #00ffea;
+}
+.back-link:hover {
+    text-decoration: underline;
+}
+.insight {
+    margin-bottom: 1.5em;
+    padding: 0.8em;
+    background-color: #222;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #00ffea33;
+}
+.label {
+    font-weight: 700;
+    color: #00ffe7;
+    text-shadow: 0 0 5px #00ffe7;
+}
+ul {
+    padding-left: 1.2em;
+    color: #b2fef7;
+}
+ul li {
+    margin-bottom: 0.3em;
+}
+.error {
+    color: #ff4c4c;
+    font-weight: bold;
+    text-shadow: 0 0 5px #ff4c4c;
+}
