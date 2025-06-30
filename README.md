@@ -1,4 +1,4 @@
-# B2B Lead Insight Generator: Technical Report
+# B2B Lead Insight Generator:
 
 ## Approach
 The B2B Lead Insight Generator automates the extraction and enrichment of business lead information from company websites and LinkedIn. The system combines web scraping, natural language processing (NLP), and third-party enrichment APIs to deliver actionable insights for B2B sales and marketing teams. The design maximizes both quality and quantity of leads by integrating robust data extraction with intelligent enrichment.
